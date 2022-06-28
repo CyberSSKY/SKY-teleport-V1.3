@@ -8,6 +8,7 @@
 
 
 
+
 -- script, by sky / ITzNotSky#1428
 if earth == true then
     game:GetService("TeleportService"):Teleport(536102540,game.Players.LocalPlayer) 
