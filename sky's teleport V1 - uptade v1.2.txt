@@ -6,27 +6,6 @@
 -------------------------------------------------------------------------------
 --]]
 
--- false to disable, true to enable .
-
-
-earth = false    -- false / true
-namek =  true  
-space = false  
-future = false 
-hell = false   
-queue = false  
-zaros = false  
-ow = false     
-htc = false    
-    
-
-
-
-
-
-
-
-
 
 
 -- script, by sky / ITzNotSky#1428
