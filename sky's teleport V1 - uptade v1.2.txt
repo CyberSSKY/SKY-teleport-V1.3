@@ -1,0 +1,91 @@
+--[[
+-------------------------------------------------------------------------------
+===============================================================================
+------------------ teleport system by SKY / ITzNotSky#1428 --------------------
+===============================================================================
+-------------------------------------------------------------------------------
+--]]
+
+-- false to disable, true to enable .
+
+
+earth = false    -- false / true
+namek =  true  
+space = false  
+future = false 
+hell = false   
+queue = false  
+zaros = false  
+ow = false     
+htc = false    
+    
+
+
+
+
+
+
+
+
+
+
+-- script, by sky / ITzNotSky#1428
+if earth == true then
+    game:GetService("TeleportService"):Teleport(536102540,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Earth!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif namek == true then
+    game:GetService("TeleportService"):Teleport(882399924,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Namek!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if space == true then
+    game:GetService("TeleportService"):Teleport(478132461,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Space!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif future == true then
+    game:GetService("TeleportService"):Teleport(569994010,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Future";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if hell == true then 
+    game:GetService("TeleportService"):Teleport(2046990924,game.Players.LocalPlayer) 
+   game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Secret World!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif queue == true then
+     game:GetService("TeleportService"):Teleport(3565304751,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Queue World!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if zaros == true then 
+     game:GetService("TeleportService"):Teleport(2651456105,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Zaros!";
+    Text = "By ITzNotSky#1428";
+    })
+elseif ow == true then
+    game:GetService("TeleportService"):Teleport(3552157537,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To Other World!";
+    Text = "By ITzNotSky#1428";
+    })
+end
+if htc == true then
+    game:GetService("TeleportService"):Teleport(882375367,game.Players.LocalPlayer) 
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Teleport To HTC!";
+    Text = "By ITzNotSky#1428";
+    })
+end
